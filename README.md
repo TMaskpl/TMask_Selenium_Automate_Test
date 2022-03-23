@@ -5,10 +5,7 @@ Automatyczne testy aplikacji web
 ======================
 
 
-[Selenium](https://selenium-python.readthedocs.io/locating-elements.html)
-
-
-[Help](https://selenium-python.readthedocs.io/locating-elements.html)
+[Selenium](https://selenium-python.readthedocs.io/locating-elements.html) - [Help](https://selenium-python.readthedocs.io/locating-elements.html)
 
 
 [Chrome](https://chromedriver.chromium.org/downloads)
