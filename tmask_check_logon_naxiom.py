@@ -1,3 +1,5 @@
+# Sprawdz po zalogowaniu czy strona ma odpowiedni tytul
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
