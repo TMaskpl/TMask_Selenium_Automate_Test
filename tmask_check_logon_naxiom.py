@@ -16,7 +16,8 @@ def test_login():
 
     nossl = driver.find_element(By.XPATH, '//*[@id="proceed-link"]')
     nossl.click()
-        
+    
+    # Logowanie
     logonweb = driver.find_element(By.XPATH, '//*[@id="Input_UserName"]')
     logonweb.clear()
     logonweb.send_keys("login")
