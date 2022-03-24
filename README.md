@@ -7,6 +7,8 @@ Automatyczne testy aplikacji web
 
 [Selenium](https://selenium-python.readthedocs.io/locating-elements.html) - [Help](https://selenium-python.readthedocs.io/locating-elements.html)
 
+[WebDriver Manager](https://github.com/SergeyPirogov/webdriver_manager)
+
 
 [Chrome](https://chromedriver.chromium.org/downloads)
 
