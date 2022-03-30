@@ -17,6 +17,6 @@ Automatyczne testy aplikacji web
 [Edge](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
 
 
-pip3 install selenium pytest
+pip3 install selenium pytest webdriver-manager
 
 
