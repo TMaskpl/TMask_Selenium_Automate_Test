@@ -1,4 +1,9 @@
+#!/usr/bin/python
 
+__author__ = "biuro@tmask.pl"
+__copyright__ = "Copyright (C) 2022 TMask.pl"
+__license__ = "MIT License"
+__version__ = "1.0"
 
 # Sprawdzenie pliku w VirusTotal - max 650 Mb
 # Run
