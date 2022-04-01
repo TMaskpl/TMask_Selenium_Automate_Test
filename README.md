@@ -21,7 +21,8 @@ Automatyczne testy aplikacji web
 pip3 install selenium pytest webdriver-manager
 
 # 1
-# Sprawdzenie pliku w VirusTotal - max 650 Mb
-# Run
-# python tmask_virustotal.py <Sciezka do pliku>
+Sprawdzenie pliku w VirusTotal - max 650 Mb
+Run
+python tmask_virustotal.py <Sciezka do pliku>
 
+========================
