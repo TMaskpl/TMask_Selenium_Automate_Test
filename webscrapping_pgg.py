@@ -1,3 +1,11 @@
+#!/usr/bin/python
+
+__author__ = "biuro@tmask.pl"
+__copyright__ = "Copyright (C) 2022 TMask.pl"
+__license__ = "MIT License"
+__version__ = "1.0"
+
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
