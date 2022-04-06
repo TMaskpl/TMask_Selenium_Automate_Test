@@ -14,7 +14,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 import os
 
-
+url = "https://sklep.pgg.pl/"
 
 def test_setup():
     global driver
@@ -25,16 +25,23 @@ def test_setup():
 
 
 def test_login():
-    driver.implicitly_wait(60)
-    driver.get("https://sklep.pgg.pl/")
-    f = driver.find_element(By.CSS_SELECTOR, '#main > div > div:nth-child(26) > div.col-4.col-md-2.pt-3.text-center > span.text-4.text-red')
-    print(f.text)
-    if f.text == "Brak towaru":
+    driver.implicitly_wait(10)
+    driver.get(url)
+
+    try:
+        f = driver.find_element(By.CSS_SELECTOR, '#main > div > div:nth-child(26) > div.col-4.col-md-2.pt-3.text-center > span.text-4.text-red')
+        print(driver.title)
+        # f = driver.find_element(By.CSS_SELECTOR, '#main > div > div:nth-child(4) > div.col-4.col-md-2.pt-3.text-center > span.text-4.text-green')
+        # print(f.text)
+        if f.text == "Brak towaru":
+            print("Brak towaru")
+            os._exit(0)
+        else:
+            print("Sprawdz dostępność towaru")
+            os._exit(1)
+    except:
+        print("Serwer nie odpowiada")
         pass
-        os._exit(0)
-    else:
-        print("Sprawdz dostępność towaru")
-        os._exit(1)
     
 
 def test_down():
